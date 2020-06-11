@@ -1,6 +1,5 @@
 import numpy as np 
 import pandas as pd
-import matplotlib.pyplot as plt
 import requests
 def getStats(country):
   api_url = 'https://api.smartable.ai/coronavirus/stats/'+country
